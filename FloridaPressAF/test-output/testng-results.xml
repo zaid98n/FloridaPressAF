@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-06T15:33:54 IST" name="Suite" finished-at="2021-12-06T15:40:04 IST" duration-ms="369275">
+    <groups>
+    </groups>
+    <test started-at="2021-12-06T15:33:54 IST" name="Test" finished-at="2021-12-06T15:40:04 IST" duration-ms="369275">
+      <class name="com.floridapublicnotices.testcases.SearchAdds">
+        <test-method signature="Check_Add_ByDate()[pri:1, instance:com.floridapublicnotices.testcases.SearchAdds@4d1c005e]" started-at="2021-12-06T15:33:54 IST" name="Check_Add_ByDate" finished-at="2021-12-06T15:34:31 IST" duration-ms="36212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_Add_ByDate -->
+        <test-method signature="Check_Add_ByPublication()[pri:2, instance:com.floridapublicnotices.testcases.SearchAdds@4d1c005e]" started-at="2021-12-06T15:34:31 IST" name="Check_Add_ByPublication" finished-at="2021-12-06T15:35:26 IST" duration-ms="55208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_Add_ByPublication -->
+        <test-method signature="Check_Add_Miami()[pri:3, instance:com.floridapublicnotices.testcases.SearchAdds@4d1c005e]" started-at="2021-12-06T15:35:26 IST" name="Check_Add_Miami" finished-at="2021-12-06T15:37:14 IST" duration-ms="107633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_Add_Miami -->
+        <test-method signature="Check_Add_Palm()[pri:4, instance:com.floridapublicnotices.testcases.SearchAdds@4d1c005e]" started-at="2021-12-06T15:37:14 IST" name="Check_Add_Palm" finished-at="2021-12-06T15:38:40 IST" duration-ms="86119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_Add_Palm -->
+        <test-method signature="Check_Add_Broward()[pri:5, instance:com.floridapublicnotices.testcases.SearchAdds@4d1c005e]" started-at="2021-12-06T15:38:40 IST" name="Check_Add_Broward" finished-at="2021-12-06T15:40:04 IST" duration-ms="83923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_Add_Broward -->
+      </class> <!-- com.floridapublicnotices.testcases.SearchAdds -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
