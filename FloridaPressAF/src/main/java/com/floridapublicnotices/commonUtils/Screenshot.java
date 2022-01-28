@@ -16,16 +16,16 @@ public class Screenshot {
 	public static void capture(WebDriver driver,String screenshotName) {
 	 
 	try 
-	{
-		TakesScreenshot ts = (TakesScreenshot)BrowserFactory.LaunchBrowser();
-		File source = ts.getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(source,new File("D:\\Florida Press Report\\ScreenShots\\"+screenshotName+".png"));
-		//System.out.println("Screenshot taken");
-	} 
-	catch (Exception e)
-	{
-		System.out.println("Exception while taking screenshot "+e.getMessage());
-	} 
+		{
+			TakesScreenshot ts = (TakesScreenshot)BrowserFactory.LaunchBrowser();
+			File source = ts.getScreenshotAs(OutputType.FILE);
+			FileUtils.copyFile(source,new File("D:\\Florida Press Report\\ScreenShots\\"+screenshotName+".png"));
+			//System.out.println("Screenshot taken");
+		} 
+		catch (Exception e)
+		{
+			System.out.println("Exception while taking screenshot "+e.getMessage());
+		} 
 	}
 	
 	

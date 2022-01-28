@@ -1,6 +1,7 @@
 package com.floridapublicnotices.pages;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
@@ -18,9 +19,14 @@ public class CheckAdd {
 		BrowserFactory.LaunchBrowser().manage().timeouts().implicitlyWait(Long.parseLong(ReadConfig.getValue("implicitwait")), TimeUnit.SECONDS);	
 		
 		Date currentdate = new Date();
-		String fname = currentdate.toString().replace(" ","_").replace(":","-");
+		SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
+		String strDate= formatter.format(currentdate);
+		//String fname = currentdate.toString().replace(" ","_").replace(":","-");
 		DataWriter.write(" "+"\n");
-		DataWriter.write("=============== || Reported on: "+fname+" || ==============="+"\n");
+		DataWriter.write(" "+"\n");
+		DataWriter.write("============================================================="+"\n");
+		DataWriter.write("=============== || Reported on: "+strDate+" || ==============="+"\n");
+		DataWriter.write("============================================================="+"\n");
 		
 		WebElement Date_1 =  BrowserFactory.LaunchBrowser().findElementByXPath("/html/body/div/div/div/div[1]/div/div[1]/div/div/div[3]/div[2]/div[1]/div/div/div/div/div/div/div/input");
 		WebElement Date_2 =  BrowserFactory.LaunchBrowser().findElementByXPath("/html/body/div/div/div/div[1]/div/div[1]/div/div/div[3]/div[2]/div[2]/div/div/div/div/div/div/div/input");

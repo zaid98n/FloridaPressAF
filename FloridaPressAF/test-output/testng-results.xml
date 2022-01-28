@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-06T15:33:54 IST" name="Suite" finished-at="2021-12-06T15:40:04 IST" duration-ms="369275">
+  <suite started-at="2022-01-27T18:19:04 IST" name="Suite" finished-at="2022-01-27T18:24:15 IST" duration-ms="311129">
     <groups>
     </groups>
-    <test started-at="2021-12-06T15:33:54 IST" name="Test" finished-at="2021-12-06T15:40:04 IST" duration-ms="369275">
+    <test started-at="2022-01-27T18:19:04 IST" name="Test" finished-at="2022-01-27T18:24:15 IST" duration-ms="311129">
       <class name="com.floridapublicnotices.testcases.SearchAdds">
-        <test-method signature="Check_Add_ByDate()[pri:1, instance:com.floridapublicnotices.testcases.SearchAdds@4d1c005e]" started-at="2021-12-06T15:33:54 IST" name="Check_Add_ByDate" finished-at="2021-12-06T15:34:31 IST" duration-ms="36212" status="PASS">
+        <test-method signature="Check_Add_ByDate()[pri:1, instance:com.floridapublicnotices.testcases.SearchAdds@548a24a]" started-at="2022-01-27T18:19:04 IST" name="Check_Add_ByDate" finished-at="2022-01-27T18:19:21 IST" duration-ms="16892" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Check_Add_ByDate -->
-        <test-method signature="Check_Add_ByPublication()[pri:2, instance:com.floridapublicnotices.testcases.SearchAdds@4d1c005e]" started-at="2021-12-06T15:34:31 IST" name="Check_Add_ByPublication" finished-at="2021-12-06T15:35:26 IST" duration-ms="55208" status="PASS">
+        <test-method signature="Check_Add_ByPublication()[pri:2, instance:com.floridapublicnotices.testcases.SearchAdds@548a24a]" started-at="2022-01-27T18:19:21 IST" name="Check_Add_ByPublication" finished-at="2022-01-27T18:20:06 IST" duration-ms="45769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Check_Add_ByPublication -->
-        <test-method signature="Check_Add_Miami()[pri:3, instance:com.floridapublicnotices.testcases.SearchAdds@4d1c005e]" started-at="2021-12-06T15:35:26 IST" name="Check_Add_Miami" finished-at="2021-12-06T15:37:14 IST" duration-ms="107633" status="PASS">
+        <test-method signature="Check_Add_Miami()[pri:3, instance:com.floridapublicnotices.testcases.SearchAdds@548a24a]" started-at="2022-01-27T18:20:06 IST" name="Check_Add_Miami" finished-at="2022-01-27T18:21:46 IST" duration-ms="99305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Check_Add_Miami -->
-        <test-method signature="Check_Add_Palm()[pri:4, instance:com.floridapublicnotices.testcases.SearchAdds@4d1c005e]" started-at="2021-12-06T15:37:14 IST" name="Check_Add_Palm" finished-at="2021-12-06T15:38:40 IST" duration-ms="86119" status="PASS">
+        <test-method signature="Check_Add_Palm()[pri:4, instance:com.floridapublicnotices.testcases.SearchAdds@548a24a]" started-at="2022-01-27T18:21:46 IST" name="Check_Add_Palm" finished-at="2022-01-27T18:23:00 IST" duration-ms="74076" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Check_Add_Palm -->
-        <test-method signature="Check_Add_Broward()[pri:5, instance:com.floridapublicnotices.testcases.SearchAdds@4d1c005e]" started-at="2021-12-06T15:38:40 IST" name="Check_Add_Broward" finished-at="2021-12-06T15:40:04 IST" duration-ms="83923" status="PASS">
+        <test-method signature="Check_Add_Broward()[pri:5, instance:com.floridapublicnotices.testcases.SearchAdds@548a24a]" started-at="2022-01-27T18:23:00 IST" name="Check_Add_Broward" finished-at="2022-01-27T18:24:15 IST" duration-ms="74988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Check_Add_Broward -->
