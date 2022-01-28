@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.floridapublicnotices.testcases.SearchAdds">
+        <methods>
+          <include name="Check_Add_ByPublication"/>
+          <include name="Check_Add_Miami"/>
+          <include name="Check_Add_ByDate"/>
+          <include name="Check_Add_Palm"/>
+          <include name="Check_Add_Broward"/>
+        </methods>
+      </class> <!-- com.floridapublicnotices.testcases.SearchAdds -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
