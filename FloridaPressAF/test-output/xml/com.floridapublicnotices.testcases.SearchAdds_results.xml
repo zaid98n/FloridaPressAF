@@ -4,14 +4,14 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="311.030">
+           time="308.238">
   <properties />
   
   
-            <testcase name="Check_Add_ByDate" time="16.892" classname="com.floridapublicnotices.testcases.SearchAdds" />
-                <testcase name="Check_Add_Miami" time="99.305" classname="com.floridapublicnotices.testcases.SearchAdds" />
-                <testcase name="Check_Add_ByPublication" time="45.769" classname="com.floridapublicnotices.testcases.SearchAdds" />
-                <testcase name="Check_Add_Palm" time="74.076" classname="com.floridapublicnotices.testcases.SearchAdds" />
-                <testcase name="Check_Add_Broward" time="74.988" classname="com.floridapublicnotices.testcases.SearchAdds" />
+            <testcase name="Check_Add_ByDate" time="19.455" classname="com.floridapublicnotices.testcases.SearchAdds" />
+                <testcase name="Check_Add_Miami" time="99.001" classname="com.floridapublicnotices.testcases.SearchAdds" />
+                <testcase name="Check_Add_ByPublication" time="41.969" classname="com.floridapublicnotices.testcases.SearchAdds" />
+                <testcase name="Check_Add_Palm" time="73.976" classname="com.floridapublicnotices.testcases.SearchAdds" />
+                <testcase name="Check_Add_Broward" time="73.837" classname="com.floridapublicnotices.testcases.SearchAdds" />
       
 </testsuite>

@@ -17,8 +17,7 @@ public class DataWriter {
 		catch (Exception e) {
 			FileWriter fstream = new FileWriter("D:\\Report.txt",true);
 			BufferedWriter out = new BufferedWriter(fstream);
-			DataWriter.write(" "+"\n");
-			out.write("Operation failed");
+			out.write("Data write operation failed");
 			out.close();
 		}
 	}

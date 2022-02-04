@@ -11,7 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 import com.floridapublicnotices.commonUtils.*;
-
+ 
 public class CheckAdd {
 	
 	public void SearchByDate() throws IOException, InterruptedException{
@@ -405,8 +405,3 @@ public class CheckAdd {
 	}
 	
 }
-
-
-
-
-
