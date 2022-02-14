@@ -14,6 +14,7 @@ import com.floridapublicnotices.commonUtils.*;
  
 public class CheckAdd {
 	
+	
 	public void SearchByDate() throws IOException, InterruptedException{
 		
 		BrowserFactory.LaunchBrowser().manage().timeouts().implicitlyWait(Long.parseLong(ReadConfig.getValue("implicitwait")), TimeUnit.SECONDS);	
