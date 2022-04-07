@@ -21,11 +21,15 @@ jobs:
       # Use mvn clean and package as the standard maven build phase
       - run:
           name: Build
-          command: mvn clean --file *.pom "-Dsurefire.suiteXmlFiles=testng.xml" "-DskipTests=true" 
+          command: cd FloridaPressAF
+                   ls -la
+                   mvn clean "-Dsurefire.suiteXmlFiles=testng.xml" "-DskipTests=true" 
       # Then run your tests!
       - run:
           name: Test
-          command: mvn test --file *.pom "-Dsurefire.suiteXmlFiles=testng.xml"
+          command: cd FloridaPressAF
+                   ls -la
+                   mvn test "-Dsurefire.suiteXmlFiles=testng.xml"
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
